@@ -10,9 +10,6 @@ As a Junior Security Analyst, also called a SOC Level 1 Analyst, you work in a
 
 - Monitor and investigate various security alerts
 - Participate in  brainstorms and workshops
-    
-    SOC
-    
 - Cooperate with other teams to keep your company safe
 - Constantly learn and discover new attacks and defenses
 
