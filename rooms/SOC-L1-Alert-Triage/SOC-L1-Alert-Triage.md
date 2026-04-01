@@ -1,6 +1,4 @@
-# SOC L1 Journey
-
-### **SOC L1 Alert Triage**
+# SOC L1 Alert Triage
 
 An A**lert** is a core concept for any SOC team, and knowing how to handle it properly ultimately decides whether a security breach is detected and prevented, or missed and devastating.
 
