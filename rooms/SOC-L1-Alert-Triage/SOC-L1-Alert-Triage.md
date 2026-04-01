@@ -30,34 +30,6 @@ SOC L1 analysts are the first line of defence, and they are the ones who work w
 
 ![image.png](image.png)
 
-| S no | **Property** | **Description** | **Examples** |
-| --- | --- | --- | --- |
-| **1** | Alert Time | Shows alert creation time. Alert usually triggersa few minutes after the actual event | • Alert Time: March 21, 15:35
-• Event Time: March 21, 15:32 |
-| **2** | Alert Name | Provides a summary of what happened,based on the detection rule's name | • Unusual Login Location
-• Email Marked as Phishing
-• Windows RDP Bruteforce
-• Potential Data Exfiltration |
-| **3** | Alert Severity | Defines the urgency of the alert,initially set by detection engineers,but can be altered by analysts if needed | • (🟢) Low / Informational
-||||• (🟡) Medium / Moderate
-• (🟠) High / Severe
-• (🔴) Critical / Urgent |
-| **4** | Alert Status | Informs if somebody is working on the alertor if the triage is done | • (🆕) New / Unassigned
-• (🔄) In Progress / Pending
-• (✅) Closed / Resolved
-• And often other custom statuses |
-| **5** | Alert Verdict | Also called alert classification,explains if the alert is a real threat or noise | • (🔴) True Positive / Real Threat
-• (🟢) False Positive / No Threat
-• And often other custom verdicts |
-| **6** | Alert Assignee | Shows the analyst that was assignedor assigned themselves to review the alert | • Assignee can sometimes be called alert owner
-• Assignee takes responsibility for their alerts |
-| **7** | Alert Description | Explains what the alert is about,usually in three sections on the right | • The logic of the alert generating rule
-• Why this activity can indicate an attack
-• Optionally, how to triage this alert |
-| **8** | Alert Fields | Provides SOC analysts' commentsand values on which the alert was triggered | • Affected Hostname
-• Entered Commandline
-• And many more, depending on the alert |
-
 **Picking the Right Alert**
 
 - Filter the alerts
