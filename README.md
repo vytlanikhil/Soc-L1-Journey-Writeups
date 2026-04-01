@@ -107,6 +107,6 @@ Blue Team is about defensive security, meaning it constantly monitors for attac
 
 Your most natural next step after L1 is to become a SOC L2 analyst, but you are free to choose another path! While handling a SIEM alert, you might notice that engineering work appeals to you more. During a cyber attack, you may be fascinated by CIRT actions. You may also find yourself well-suited as a manager and build your path to the CISO role. No matter what, your first year or two is to get real work experience, and to spend this time effectively, follow the tips below!
 
-![image.png](image%208.png)
+![image.png](images/image%208.png)
 
 ## **Humans as Attack Vectors**
