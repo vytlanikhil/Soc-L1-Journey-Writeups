@@ -39,7 +39,7 @@ SOC L1 analysts are the first line of defence, and they are the ones who work w
 • Windows RDP Bruteforce
 • Potential Data Exfiltration |
 | **3** | Alert Severity | Defines the urgency of the alert,initially set by detection engineers,but can be altered by analysts if needed | • (🟢) Low / Informational
-• (🟡) Medium / Moderate
+||||• (🟡) Medium / Moderate
 • (🟠) High / Severe
 • (🔴) Critical / Urgent |
 | **4** | Alert Status | Informs if somebody is working on the alertor if the triage is done | • (🆕) New / Unassigned
