@@ -107,3 +107,77 @@ Your most natural next step after L1 is to become a SOC L2 analyst, but you ar
 ![image.png](images/image%208.png)
 
 ## **Humans as Attack Vectors**
+
+**Attacks on Humans**
+
+- Social Engineering attacks
+    - Pishing
+    - Malware Downloads
+    - Deepfakes
+    - Impersonation
+
+**Defending Humans**
+
+Defending against threats involves two key tasks: **Mitigation** and **Detection**. Mitigation aims to prevent or reduce the chance and impact of attacks, for example by training employees or deploying a good anti-phishing solution. However, no matter how good mitigation measures are, one day they are bypassed. That's where your SOC skills are vital to detect and investigate advanced attacks that slip through
+
+![image.png](images/image%209.png)
+
+- **Mitigation**
+    - **Anti-phishing solution**
+    - **Antivirus / EDR solution**
+    - **"Trust but verify" principle**
+    - **Security awareness training**
+
+## **Systems as Attack Vectors**
+
+**Definition of System**
+Where do the banks store your cards, or where are your emails stored? The answer - on a system: a physical server, a virtual machine, or a cloud platform like Microsoft 365. Protecting such systems is crucial: if the attackers breach one user's mailbox via phishing, they compromise a single mailbox, but if they breach a mail server, they now control all thousands of mailboxes. Each system type can have a different value for threat actors, for example:
+
+| **Breached System** | **Attack Value** |
+| --- | --- |
+| A personal laptop of a school student | Steal Steam profile and add the PC to a botnet |
+| A laptop of the bank's senior IT administrator | Get access to the internal banking systems |
+| A mail server of a criminal law company | Dump all mailboxes and blackmail the victim |
+| A server at the heart of an industrial network | Encrypt the whole network with ransomware |
+| A government website management panel | Damage the website content ([defacement(opens in new tab)](https://en.wikipedia.org/wiki/Website_defacement) / activism) |
+
+**Attack on Systems**
+
+- Human-Led Attacks
+- Vulnerabilities
+    - Software Vulnerabilities
+- Supply Chain
+- Misconfigurations
+
+**Software Vulnerabilities :**
+
+Every piece of software has flaws, but some take years to be discovered. For example, [Shellshock(opens in new tab)](https://www.invicti.com/blog/web-security/cve-2014-6271-shellshock-bash-vulnerability-scan/), a major Linux vulnerability, existed since 1992 but wasn't found until 2014. In the worst-case scenario, attackers discover the vulnerability before anyone else. This is known as a [zero-day(opens in new tab)](https://en.wikipedia.org/wiki/Zero-day_vulnerability), and only your SOC skills can determine whether it gets detected in time.
+
+Once a vulnerability is made public, it is assigned a Common Vulnerabilities and Exposures ([CVE](https://www.cvedetails.com/cisa-known-exploited-vulnerabilities/kev-1.html)) number. From that moment, it's a race: attackers develop exploits while defenders rush to update their systems. Here is the timeline of how Windows vulnerabilities evolve every year:
+
+![image.png](images/image%2010.png)
+
+Responding to Vulnerabilities
+
+An answer to a CVE is always **a patch** - an update supplied by the software vendor. Even for zero-days, you'll have to wait for a patch, vigilantly monitor for exploitation traces, and try to survive the stressful period before the patch is released. For example, by:
+
+- Restricting access to the system to only trusted ip’s
+- Applying temporary measures provided by the vendor
+- Blocking known attack patterns on  WAF or IPS
+
+Misconfigurations
+
+On the other hand, a misconfiguration isn't a bug in the software but a mistake in how the system was set up, often by the IT team. These errors happen frequently, usually to make things simpler, like using "1111" instead of typing a long password every time. Let's take a look at some real-world examples.
+
+- How ["123456" password](https://www.bleepingcomputer.com/news/security/123456-password-exposed-chats-for-64-million-mcdonalds-job-chatbot-applications/) exposed chats for 64 million McDonald's job applications
+- How a [misconfigured AWS cloud](https://www.bleepingcomputer.com/news/security/capital-one-data-breach-affects-106-million-people-suspect-arrested/#:~:text=intrusion%20occurred%20through%20a%20misconfigured%20web%20application%20firewall) resulted in a breach of 106 million bank customers
+- How improperly configured [smart fridges](https://www.sectigo.com/resource-library/when-refrigerators-attack-how-cyber-criminals-infect-appliances-and-how-manufacturers-can-stop-them) are silently used in full-scale botnet attacks
+
+| **Mitigation** | **Description** |
+| --- | --- |
+| **Patch Management** | A process of tracking and patching the vulnerable systems significantly reduces the chance of a successful attack |
+| **Training for IT** | If your IT knows the risks of misconfigurations, they are less likely to leave the systems unprotected |
+| **Network Protection** | The system is much harder to breach if access to it is restricted to trusted people or IP addresses |
+| **Antivirus Protection** | Same as with attacks on humans, a good antivirus can stop or at least detect many different attacks |
+
+###
