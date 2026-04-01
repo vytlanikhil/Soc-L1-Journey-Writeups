@@ -180,4 +180,6 @@ On the other hand, a misconfiguration isn't a bug in the software but a mistake 
 | **Network Protection** | The system is much harder to breach if access to it is restricted to trusted people or IP addresses |
 | **Antivirus Protection** | Same as with attacks on humans, a good antivirus can stop or at least detect many different attacks |
 
-###
+## Rooms 
+
+- [SOC L1 Alert Triage Guide](rooms/SOC-L1-Alert-Triage/SOC-L1-Alert-Triage.md)
