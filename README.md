@@ -183,3 +183,4 @@ On the other hand, a misconfiguration isn't a bug in the software but a mistake 
 ## Rooms 
 
 - [SOC L1 Alert Triage Guide](rooms/SOC-L1-Alert-Triage/SOC-L1-Alert-Triage.md)
+- [SOC-L1-Alert-Reporting](rooms/SOC-L1-Alert-Reporting/SOC-L1-Alert-Reporting.md)
