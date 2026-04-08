@@ -184,6 +184,7 @@ On the other hand, a misconfiguration isn't a bug in the software but a mistake 
 
 
 - [SOC Metrics and Objectives](rooms/SOC%20Metrics%20and%20Objectives/SOC%20Metrics%20and%20Objectives.md)
+- [SOC Workbooks and Lookups](rooms/SOC%20Workbooks%20and%20Lookups/SOC%20Workbooks%20and%20Lookups.md)
 - [SOC L1 Alert Triage Guide](rooms/SOC-L1-Alert-Triage/SOC-L1-Alert-Triage.md)
 - [SOC-L1-Alert-Reporting](rooms/SOC-L1-Alert-Reporting/SOC-L1-Alert-Reporting.md)
   
